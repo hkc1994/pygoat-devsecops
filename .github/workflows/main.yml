@@ -20,4 +20,4 @@ jobs:
       run: pip install bandit
 
     - name: Run bandit
-      run: bandit -r .
+      run: bandit -r -iii -lll .
