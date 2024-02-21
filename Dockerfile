@@ -6,7 +6,7 @@ WORKDIR /app
 
 # dependencies for psycopg2
 RUN apt-get update
-RUN apt-get install --no-install-recommends -y dnsutils=1:9.11.5.P4+dfsg-5.1+deb10u10
+RUN apt-get install --no-install-recommends -y dnsutils=1:9.18.18-0ubuntu0.22.04.1
 RUN apt-get install --no-install-recommends libpq-dev=11.16-0+deb10u1 python3-dev=3.7.3-1 \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
