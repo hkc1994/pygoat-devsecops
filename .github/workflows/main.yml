@@ -56,8 +56,8 @@ jobs:
       - name: docker scout
         uses: docker/scout-action@v1.5.0
         with:
-            dockerhub-user: ${{secrets.REPO_USER}}
-            dockkerhub-password: ${{secretts.DOCKER_PSWD}}
-            command: quickview,cves
+          dockerhub-user: ${{secrets.REPO_USER}}
+          dockkerhub-password: ${{secretts.DOCKER_PSWD}}
+          command: quickview,cves
             
               
